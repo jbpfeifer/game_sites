@@ -23,9 +23,9 @@ email: joseph.b.pfeifer@gmail.com
 description: >-
   Legal pages for Joseph Pfeifer mobile games, including privacy policies and
   terms and conditions.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: josephbpfeifer
+baseurl: "/game_sites" # project repository path for GitHub Pages
+url: "https://jbpfeifer.github.io" # GitHub Pages host
+github_username: jbpfeifer
 
 # Build settings
 theme: minima
