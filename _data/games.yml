@@ -1,5 +1,55 @@
 - name: Oblique
   slug: oblique
+  tagline: Draw walls to deflect the ball. Collect items, gain speed, and survive.
+  short_description: A high-speed arcade game built around indirect control, quick drawing, and escalating velocity.
+  long_description: Oblique is a fast-paced arcade challenge where you do not control the ball directly. Instead, you draw walls on the fly to deflect it, guide it toward pickups, and keep it alive as the speed continuously ramps up.
+  genre: Arcade
+  platform: Android
+  status: Available now
+  hero_note: Draw. Deflect. Survive.
+  accent: blue
+  support_email: joseph.b.pfeifer@gmail.com
+  developer_name: Joseph Pfeifer
+  play_url: https://play.google.com/store/apps/details?id=com.nona.oblique
+  availability_label: On Google Play
+  support_label: Contact support
+  store_blurb: Draw. Deflect. Survive.
+  store_badge: /assets/playstore.png
+  icon: /assets/oblique/icon.png
+  start_screen: /assets/oblique/Oblique STart screen.png
+  tile_image: /assets/oblique/screen-2.png
+  banner_image: /assets/oblique/banner_oblique.png
+  screenshots:
+    - /assets/oblique/screen-1.png
+    - /assets/oblique/screen-2.png
+    - /assets/oblique/screen-3.png
+    - /assets/oblique/screen-4.png
   privacy_policy_url: /games/oblique/privacy-policy/
   terms_url: /games/oblique/terms-and-conditions/
-
+  features:
+    - Draw walls in real time to redirect the ball without touching it directly
+    - Every pickup increases the speed, turning each run into a sharper reflex test
+    - Endless replayability through procedural layouts and score chasing
+  pillars:
+    - title: Indirect control
+      text: The central mechanic is environmental control. You shape the path instead of steering the ball itself.
+    - title: Velocity scaling
+      text: Each collected item permanently increases the pace, pushing the run from manageable to chaotic.
+    - title: Minimal focus
+      text: The visual style stays stripped back so the player can read the ball trajectory and react instantly.
+  facts:
+    - label: Platform
+      value: Android
+    - label: Genre
+      value: Arcade
+    - label: Updated
+      value: June 1, 2026
+    - label: Data safety
+      value: No data shared; encrypted in transit
+  safety_points:
+    - No data shared with third parties
+    - App activity, performance, and device IDs may be collected
+    - Data is encrypted in transit
+  changelog:
+    title: Official production launch
+    body: Welcome to Oblique. The current release introduces the full arcade loop with indirect control, velocity scaling, minimalist visuals, and offline score chasing.

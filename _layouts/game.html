@@ -1,0 +1,138 @@
+---
+layout: default
+---
+{% assign game = site.data.games | where: "slug", page.game_slug | first %}
+<section class="game-hero-banner">
+  <img src="{{ game.banner_image | default: '/assets/banner.jpg' | relative_url }}" alt="{{ page.title }} banner" />
+</section>
+
+<div id="main" class="alt">
+  <section id="one">
+    <div class="inner">
+      <div class="app-landing">
+        <div class="app-landing__copy">
+          <span class="app-landing__status">{{ game.status | default: 'Official page' }}</span>
+          <h2>{{ game.name }}</h2>
+          <p class="app-landing__lead">{{ game.long_description | default: game.short_description }}</p>
+          <div class="app-landing__actions">
+            <a href="mailto:{{ game.support_email }}" class="button special">{{ game.support_label | default: 'Contact support' }}</a>
+            <a href="{{ game.privacy_policy_url | relative_url }}" class="button">Privacy Policy</a>
+            <a href="{{ game.terms_url | relative_url }}" class="button">Terms</a>
+          </div>
+          <div class="app-landing__store">
+            <a href="{{ game.play_url }}" class="app-landing__badge" target="_blank" rel="noopener noreferrer" aria-label="{{ game.availability_label }}">
+              <img src="{{ game.store_badge | relative_url }}" alt="{{ game.availability_label }}" />
+            </a>
+            <p>{{ game.store_blurb }}</p>
+          </div>
+          <div class="app-landing__facts">
+            {% for fact in game.facts %}
+              <div class="app-landing__fact">
+                <span>{{ fact.label }}</span>
+                <strong>{{ fact.value }}</strong>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="app-landing__visual">
+          <div class="app-landing__phone">
+            <img src="{{ '/assets/black.png' | relative_url }}" alt="" />
+            <div class="app-landing__screen">
+              <img class="app-landing__screen-image" src="{{ game.start_screen | relative_url }}" alt="{{ game.name }} start screen" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="two">
+    <div class="inner">
+      <div class="app-landing__content-grid">
+        <article>
+          <header class="major">
+            <h2>About the game</h2>
+          </header>
+          {{ content }}
+        </article>
+        <aside>
+          <header class="major">
+            <h3>Quick links</h3>
+          </header>
+          <ul class="alt">
+            <li><a href="{{ game.play_url }}" target="_blank" rel="noopener noreferrer">Google Play listing</a></li>
+            <li><a href="{{ game.privacy_policy_url | relative_url }}">Privacy Policy</a></li>
+            <li><a href="{{ game.terms_url | relative_url }}">Terms and Conditions</a></li>
+            <li><a href="{{ '/app-ads.txt' | relative_url }}">app-ads.txt</a></li>
+          </ul>
+          <header class="major app-landing__aside-heading">
+            <h3>Data safety</h3>
+          </header>
+          <ul class="alt">
+            {% for point in game.safety_points %}
+              <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="three">
+    <div class="inner">
+      <header class="major">
+        <h2>Highlights</h2>
+      </header>
+      <div class="app-landing__feature-grid">
+        {% for feature in game.features %}
+          <div class="app-landing__feature">
+            <h3>{{ feature }}</h3>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="four">
+    <div class="inner">
+      <header class="major">
+        <h2>Design pillars</h2>
+      </header>
+      <div class="app-landing__feature-grid">
+        {% for pillar in game.pillars %}
+          <div class="app-landing__feature app-landing__feature--copy">
+            <h3>{{ pillar.title }}</h3>
+            <p>{{ pillar.text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="five">
+    <div class="inner">
+      <header class="major">
+        <h2>Screenshots</h2>
+      </header>
+      <div class="app-landing__screenshots">
+        {% for shot in game.screenshots %}
+          <div class="app-landing__shot">
+            <img src="{{ shot | relative_url }}" alt="{{ game.name }} screenshot {{ forloop.index }}" />
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="six">
+    <div class="inner">
+      <header class="major">
+        <h2>What's new</h2>
+      </header>
+      <div class="app-landing__update">
+        <h3>{{ game.changelog.title }}</h3>
+        <p>{{ game.changelog.body }}</p>
+      </div>
+    </div>
+  </section>
+</div>

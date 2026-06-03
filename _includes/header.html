@@ -1,0 +1,17 @@
+<div id="wrapper">
+  <header id="header"{% if page.layout == "home" %} class="alt"{% endif %}{% if page.layout == "game" %} class="alt style2"{% endif %}>
+    <a href="{{ '/' | relative_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+    <nav>
+      <a href="#menu">Menu</a>
+    </nav>
+  </header>
+
+  <nav id="menu">
+    <ul class="links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/#games' | relative_url }}">Games</a></li>
+      <li><a href="{{ '/impressum/' | relative_url }}">Legal Notice</a></li>
+      <li><a href="{{ '/datenschutz/' | relative_url }}">Privacy Notice</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+    </ul>
+  </nav>

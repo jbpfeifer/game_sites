@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<section id="banner" class="major">
+  <div class="inner">
+    <header class="major">
+      <h1>{{ site.brand.headline }}</h1>
+    </header>
+    <div class="content">
+      <p>{{ site.brand.subheadline }}</p>
+      <ul class="actions">
+        <li><a href="#games" class="button next scrolly">View Games</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div id="main">
+  <section id="games" class="tiles">
+    {% for game in site.data.games %}
+      <article>
+        <span class="image">
+          <img src="{{ game.tile_image | relative_url }}" alt="{{ game.name }}" />
+        </span>
+        <header class="major">
+          <h3><a href="{{ '/games/' | append: game.slug | append: '/' | relative_url }}" class="link">{{ game.name }}</a></h3>
+          <p>{{ game.short_description }}</p>
+        </header>
+      </article>
+    {% endfor %}
+    <article>
+      <span class="image">
+        <img src="{{ '/assets/oblique/screen-4.png' | relative_url }}" alt="About this site" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ '/about/' | relative_url }}" class="link">About This Site</a></h3>
+        <p>The place where I host my games and keep the official support and store information around them.</p>
+      </header>
+    </article>
+  </section>
+
+  <section id="two">
+    <div class="inner">
+      <header class="major">
+        <h2>A small web home for the games</h2>
+      </header>
+      {{ content }}
+      <p>Each game hosted here gets its own page, while support links, privacy policies, terms, and store verification stay easy to reach. The site-wide legal information lives in the footer where it belongs.</p>
+      <ul class="actions">
+        <li><a href="{{ '/about/' | relative_url }}" class="button next">About This Site</a></li>
+      </ul>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,285 @@
+---
+---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+@import 'font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+
+@include skel-breakpoints((
+  xlarge: '(max-width: 1680px)',
+  large: '(max-width: 1280px)',
+  medium: '(max-width: 980px)',
+  small: '(max-width: 736px)',
+  xsmall: '(max-width: 480px)',
+  xxsmall: '(max-width: 360px)'
+));
+
+@include skel-layout((
+  reset: 'full',
+  boxModel: 'border',
+  grid: (gutters: 2em),
+  breakpoints: (
+    large: (grid: (gutters: 1.5em)),
+    small: (grid: (gutters: 1.25em))
+  )
+));
+
+@mixin inner {
+  > .inner {
+    @include padding(4em, 0);
+    margin: 0 auto;
+    max-width: _size(inner);
+    width: calc(100% - 6em);
+
+    @include breakpoint(small) {
+      @include padding(3em, 0);
+      width: calc(100% - 3em);
+    }
+  }
+}
+
+@import 'base/page';
+@import 'base/typography';
+@import 'components/section';
+@import 'components/form';
+@import 'components/box';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/list';
+@import 'components/table';
+@import 'components/button';
+@import 'components/tiles';
+@import 'components/contact-method';
+@import 'components/spotlights';
+@import 'layout/header';
+@import 'layout/banner';
+@import 'layout/main';
+@import 'layout/contact';
+@import 'layout/footer';
+@import 'layout/wrapper';
+@import 'layout/menu';
+
+/* App landing page styling adapted from automatic-app-landing-page */
+
+.game-hero-banner {
+  position: relative;
+  top: -3.25em;
+  height: 60vh;
+  min-height: 22em;
+  max-height: 34em;
+  margin-bottom: -3.25em;
+  overflow: hidden;
+}
+
+.game-hero-banner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.app-landing {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(20rem, 0.85fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.app-landing__status {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  color: _palette(highlight);
+}
+
+.app-landing__copy h2 {
+  margin-bottom: 0.5rem;
+}
+
+.app-landing__lead {
+  margin-bottom: 2rem;
+}
+
+.app-landing__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.app-landing__store {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.app-landing__store p {
+  margin: 0;
+  color: _palette(fg-light);
+}
+
+.app-landing__badge {
+  display: inline-flex;
+  align-items: center;
+}
+
+.app-landing__badge img {
+  display: block;
+  width: 11rem;
+  height: auto;
+}
+
+.app-landing__facts {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.app-landing__fact {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.75rem;
+  border-top: solid 1px _palette(border);
+}
+
+.app-landing__fact span {
+  color: _palette(fg-light);
+}
+
+.app-landing__visual {
+  display: flex;
+  justify-content: center;
+}
+
+.app-landing__phone {
+  position: relative;
+  width: min(100%, 20rem);
+}
+
+.app-landing__phone img {
+  display: block;
+  width: 100%;
+  filter: drop-shadow(0 1rem 2rem rgba(0, 0, 0, 0.35));
+}
+
+.app-landing__screen {
+  position: absolute;
+  inset: 3.8% 6.8%;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: #111;
+}
+
+.app-landing__screen-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.app-landing__content-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(16rem, 0.75fr);
+  gap: 3rem;
+}
+
+.app-landing__aside-heading {
+  margin-top: 2.5rem;
+}
+
+.app-landing__feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.app-landing__feature {
+  padding: 2rem;
+  border: solid 1px _palette(border);
+  background: _palette(border-bg);
+}
+
+.app-landing__feature h3 {
+  margin-bottom: 0;
+}
+
+.app-landing__feature--copy h3 {
+  margin-bottom: 0.75rem;
+}
+
+.app-landing__feature--copy p {
+  margin-bottom: 0;
+}
+
+.app-landing__screenshots {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.app-landing__shot {
+  border: solid 1px _palette(border);
+  background: _palette(border-bg);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-landing__shot img {
+  display: block;
+  width: min(100%, 14rem);
+  height: auto;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.28);
+}
+
+.app-landing__update {
+  border: solid 1px _palette(border);
+  background: _palette(border-bg);
+  padding: 2rem;
+}
+
+.app-landing__update h3 {
+  margin-bottom: 0.75rem;
+}
+
+.app-landing__update p {
+  margin: 0;
+}
+
+@include breakpoint(medium) {
+  .app-landing,
+  .app-landing__content-grid,
+  .app-landing__feature-grid,
+  .app-landing__screenshots {
+    grid-template-columns: 1fr;
+  }
+
+  .app-landing__visual {
+    order: -1;
+  }
+
+  .app-landing__store {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .game-hero-banner {
+    top: -2.75em;
+    height: 22em;
+    min-height: 0;
+    max-height: none;
+    margin-bottom: -2.75em;
+  }
+
+  .game-hero-banner img {
+    height: 100%;
+  }
+}

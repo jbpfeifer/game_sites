@@ -1,30 +1,14 @@
 ---
-layout: page
+layout: game
 title: Oblique
 permalink: /games/oblique/
+game_slug: oblique
 ---
 
-# Oblique
+Oblique is a high-speed arcade game about controlling the bounce instead of controlling the character.
 
-This is the official page for **Oblique**.
+The core loop is immediate: draw walls, redirect the ball, collect items, and survive for as long as you can. Every pickup increases the speed, so a clean run can turn into chaos in seconds.
 
-It is the small web home for the game: a simple place for the important stuff like support, legal information, and store-related verification.
+What makes the game stand out is the indirect control. You are not steering the ball moment to moment. You are changing the environment under pressure and living with the consequences of every line you place.
 
-If you came here from Google Play, welcome. If you are here because you are playing the game, also welcome.
-
-## Links
-
-- Game info and support live here on this page
-- [Privacy Policy]({{ "/games/oblique/privacy-policy/" | relative_url }})
-- [Terms and Conditions]({{ "/games/oblique/terms-and-conditions/" | relative_url }})
-- [Impressum / Legal Notice]({{ "/impressum/" | relative_url }})
-- [app-ads.txt]({{ "/app-ads.txt" | relative_url }})
-
-## A quick note
-
-Oblique is part of my small indie game work, and this page is here to keep the official information easy to find without getting in the way.
-
-For questions about the game, privacy, or anything store-related, feel free to get in touch:
-
-- Joseph Pfeifer
-- [joseph.b.pfeifer@gmail.com](mailto:joseph.b.pfeifer@gmail.com)
+That makes each round feel part reflex test, part improvisation. A smart line can save the run, and one bad bounce can end it immediately.

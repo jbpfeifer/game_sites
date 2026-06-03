@@ -1,96 +1,95 @@
 ---
 layout: page
-title: Datenschutzerklaerung
+title: Privacy Notice
 permalink: /datenschutz/
+description: Privacy notice for this website and its hosting setup.
 ---
 
-# Datenschutzerklaerung
+## Controller
 
-## Verantwortlicher
-
-Verantwortlich fuer diese Website ist:
+The controller responsible for this website is:
 
 - Joseph Pfeifer
-- Krobotek 44, 8282 Weichselbaum, Oesterreich
-- E-Mail: [joseph.b.pfeifer@gmail.com](mailto:joseph.b.pfeifer@gmail.com)
+- Krobotek 44, 8282 Weichselbaum, Austria
+- Email: [joseph.b.pfeifer@gmail.com](mailto:joseph.b.pfeifer@gmail.com)
 
-## Allgemeines
+## Scope
 
-Diese Datenschutzerklaerung gilt fuer diese Website und ihre Unterseiten. Sie betrifft die Bereitstellung der Website selbst. Fuer die mobilen Spiele und deren jeweilige Datenverarbeitung gelten die verlinkten Privacy Policies der einzelnen Spiele.
+This privacy notice applies to this website and its subpages. It covers the operation of the website itself. The privacy policies linked on the individual game pages apply to the respective mobile games and their data processing.
 
-## Hosting ueber GitHub Pages
+## Hosting via GitHub Pages
 
-Diese Website wird ueber GitHub Pages gehostet. Beim Aufruf der Website koennen durch GitHub technisch erforderliche Daten verarbeitet werden, insbesondere:
+This website is hosted on GitHub Pages. When the site is accessed, GitHub may process technically necessary data, including:
 
-- IP-Adresse
-- Datum und Uhrzeit des Zugriffs
-- angeforderte Inhalte
-- Browser- und Geraeteinformationen
+- IP address
+- Date and time of access
+- Requested content
+- Browser and device information
 
-GitHub weist darauf hin, dass bei Besuchen von GitHub-Pages-Websites die IP-Adresse der Besucherinnen und Besucher aus Sicherheitsgruenden protokolliert und gespeichert wird.
+GitHub states that when visitors access GitHub Pages websites, their IP address is logged and stored for security purposes.
 
-Weitere Informationen:
+Further information:
 
 - [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
 - [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 - [GitHub Cookies](https://docs.github.com/en/site-policy/privacy-policies/github-cookies)
 
-## Zwecke und Rechtsgrundlagen
+## Purposes and legal basis
 
-Die Verarbeitung technisch erforderlicher Daten erfolgt zum Zweck der sicheren und stabilen Bereitstellung der Website.
+Technically necessary data is processed for the purpose of securely and reliably providing the website.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an sicherem und funktionsfaehigem Betrieb der Website).
+The legal basis is Article 6(1)(f) GDPR, based on the legitimate interest in operating a secure and functional website.
 
-## Cookies und aehnliche Technologien
+## Cookies and similar technologies
 
-Diese Website setzt nach aktuellem Stand keine eigenen Analyse-, Marketing- oder Tracking-Cookies.
+At this time, this website does not use its own analytics, marketing, or tracking cookies.
 
-Es kann jedoch sein, dass im Zusammenhang mit dem Hosting oder mit Diensten von GitHub technisch erforderliche Cookies oder aehnliche Technologien verwendet werden. Informationen dazu finden Sie in den GitHub-Dokumenten oben.
+Technically necessary cookies or similar technologies may still be used in connection with GitHub hosting or GitHub services. Please refer to the GitHub documentation linked above for details.
 
-## Kontaktaufnahme per E-Mail
+## Contact by email
 
-Wenn Sie per E-Mail Kontakt aufnehmen, werden die von Ihnen uebermittelten Daten ausschliesslich zur Bearbeitung Ihrer Anfrage verwendet.
+If you contact me by email, the data you provide will be used solely to handle your request.
 
-Dabei koennen insbesondere folgende Daten verarbeitet werden:
+This may include:
 
-- E-Mail-Adresse
+- Email address
 - Name
-- Inhalt Ihrer Nachricht
-- Datum und Uhrzeit der Kontaktaufnahme
+- Message content
+- Date and time of contact
 
-Rechtsgrundlage ist je nach Inhalt Ihrer Anfrage Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche oder vertragliche Kommunikation) oder Art. 6 Abs. 1 lit. f DSGVO (Bearbeitung sonstiger Anfragen).
+Depending on the nature of the request, the legal basis is Article 6(1)(b) GDPR for pre-contractual or contractual communication or Article 6(1)(f) GDPR for other inquiries.
 
-## Speicherdauer
+## Retention period
 
-- Reine Website-Zugriffsdaten werden von mir selbst nicht gesondert gespeichert.
-- Soweit technische Protokolle beim Hosting-Anbieter anfallen, richtet sich deren Speicherdauer nach den GitHub-Richtlinien.
-- E-Mails und Korrespondenz werden nur so lange gespeichert, wie dies fuer die Bearbeitung der Anfrage oder aufgrund gesetzlicher Pflichten erforderlich ist.
+- I do not separately store pure website access data myself.
+- Where technical logs are processed by the hosting provider, retention depends on GitHub's policies.
+- Emails and correspondence are stored only as long as necessary to process the request or to comply with legal obligations.
 
-## Ihre Rechte
+## Your rights
 
-Sie haben nach der DSGVO insbesondere das Recht auf:
+Under the GDPR, you have rights including:
 
-- Auskunft
-- Berichtigung
-- Loeschung
-- Einschraenkung der Verarbeitung
-- Datenuebertragbarkeit
-- Widerspruch gegen die Verarbeitung
+- Access
+- Rectification
+- Erasure
+- Restriction of processing
+- Data portability
+- Objection to processing
 
-Wenn eine Verarbeitung auf Ihrer Einwilligung beruht, haben Sie ausserdem das Recht, diese Einwilligung jederzeit mit Wirkung fuer die Zukunft zu widerrufen.
+If processing is based on consent, you also have the right to withdraw that consent at any time with effect for the future.
 
-## Beschwerderecht
+## Right to lodge a complaint
 
-Sie haben das Recht, eine Beschwerde bei einer Datenschutzaufsichtsbehoerde einzubringen. In Oesterreich ist zustaendig:
+You have the right to lodge a complaint with a data protection authority. In Austria, the competent authority is:
 
-Oesterreichische Datenschutzbehoerde  
+Austrian Data Protection Authority  
 Barichgasse 40-42  
-1030 Wien  
-E-Mail: [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at)
+1030 Vienna  
+Email: [dsb@dsb.gv.at](mailto:dsb@dsb.gv.at)
 
-## Kontakt
+## Contact
 
-Bei Fragen zum Datenschutz auf dieser Website kontaktieren Sie bitte:
+For privacy questions regarding this website, please contact:
 [joseph.b.pfeifer@gmail.com](mailto:joseph.b.pfeifer@gmail.com)
 
-Stand: 2026-05-29
+Last updated: 2026-05-29

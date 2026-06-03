@@ -18,14 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Joseph Pfeifer - Game Legal Pages
+title: Joseph Pfeifer Games
 email: joseph.b.pfeifer@gmail.com
 description: >-
-  Legal pages for Joseph Pfeifer mobile games, including privacy policies and
-  terms and conditions.
+  Indie game portfolio and official landing pages for Joseph Pfeifer's mobile games.
 baseurl: "/game_sites" # project repository path for GitHub Pages
 url: "https://games.nona.business" # GitHub Pages host
 github_username: jbpfeifer
+author: Joseph Pfeifer
+subtitle: Official Pages
+tagline: Small mobile games with clean presentation and reliable legal pages.
+location: Weichselbaum, Austria
+brand:
+  studio: Nona Business
+  headline: The games I make, in one place.
+  subheadline: I am an indie developer, and this site is where I host my games along with the support, privacy, and store information around them.
 
 # Build settings
 theme: minima
@@ -33,7 +40,6 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.markdown
   - impressum.md
   - datenschutz.md
   - about.markdown

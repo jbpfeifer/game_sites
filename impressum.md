@@ -1,40 +1,39 @@
 ---
 layout: page
-title: Impressum
+title: Legal Notice
 permalink: /impressum/
+description: Legal notice and company information for Joseph Pfeifer's game websites.
 ---
 
-# Impressum
+## Information pursuant to the Austrian Media Act and E-Commerce Act
 
-## Angaben gemaess Mediengesetz und E-Commerce-Gesetz
+- Media owner and person responsible for the content: Joseph Pfeifer
+- Address: Krobotek 44, 8282 Weichselbaum, Austria
+- Phone: +43 676 3800492
+- Email: [joseph.b.pfeifer@gmail.com](mailto:joseph.b.pfeifer@gmail.com)
+- VAT ID: ATU77931678
+- Supervisory authority: Bezirkshauptmannschaft Jennersdorf
+- Membership: Austrian Federal Economic Chamber, Burgenland Chamber of Commerce
 
-- Medieninhaber und fuer den Inhalt verantwortlich: Joseph Pfeifer
-- Anschrift: Krobotek 44, 8282 Weichselbaum, Oesterreich
-- Telefon: +43 676 3800492
-- E-Mail: [joseph.b.pfeifer@gmail.com](mailto:joseph.b.pfeifer@gmail.com)
-- UID-Nummer: ATU77931678
-- Aufsichtsbehoerde: Bezirkshauptmannschaft Jennersdorf
-- Mitgliedschaft: Mitglied der Wirtschaftskammer Oesterreich, Wirtschaftskammer Burgenland
+## Business purpose
 
-## Unternehmensgegenstand
+This website provides privacy information, terms and conditions, and other official information for mobile games developed by Joseph Pfeifer.
 
-Diese Website dient der Bereitstellung von Datenschutzinformationen, Nutzungsbedingungen und sonstigen rechtlichen Informationen zu mobilen Spielen von Joseph Pfeifer.
+## General editorial purpose
 
-## Grundlegende Richtung der Website
+Informational website for mobile games and their related legal pages.
 
-Informationswebsite zu mobilen Spielen und den dazugehoerigen rechtlichen Seiten.
+## Liability notice
 
-## Haftungsausschluss
+No liability is assumed for the content of external websites linked from this site.
 
-Fuer den Inhalt verlinkter externer Websites wird keine Haftung uebernommen.
+## Consumer information
 
-## Verbraucherhinweis
+Complaints may be sent to the email address listed above.
 
-Sie koennen allfaellige Beschwerden an die oben angegebene E-Mail-Adresse richten.
+Note: The former EU Online Dispute Resolution platform (ODR platform) was discontinued on July 20, 2025 and is no longer available.
 
-Hinweis: Die fruehere EU-Online-Streitbeilegungsplattform (ODR/OS-Plattform) wurde mit 20. Juli 2025 eingestellt und ist nicht mehr verfuegbar.
+## Related pages
 
-## Weitere rechtliche Hinweise
-
-- [Datenschutzerklaerung]({{ "/datenschutz/" | relative_url }})
-- [Nutzungsbedingungen]({{ "/games/oblique/terms-and-conditions/" | relative_url }})
+- [Privacy Notice]({{ "/datenschutz/" | relative_url }})
+- [About This Site]({{ "/about/" | relative_url }})
