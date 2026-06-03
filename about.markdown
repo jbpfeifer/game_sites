@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This website contains legal pages for games developed by Joseph Pfeifer.
+This website is the official web home for games developed by Joseph Pfeifer.
 
+It exists because app stores and advertising platforms need a verified public site, but I also wanted one simple place that feels human and useful.
+
+Here you can find:
+
+- Game pages
 - Privacy policies
 - Terms and conditions
 - Impressum / legal notice
 - Datenschutzerklaerung for this website
-- Contact information for data protection requests
+- `app-ads.txt`
+- Contact information for support and data protection requests
 
-If you need anything related to data privacy or legal compliance, contact:
+If you need help with one of my games, or if you are here for privacy or legal information, contact:
 [joseph.b.pfeifer@gmail.com](mailto:joseph.b.pfeifer@gmail.com)
 
 See also: [Impressum]({{ "/impressum/" | relative_url }})
