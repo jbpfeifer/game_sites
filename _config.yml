@@ -24,7 +24,7 @@ description: >-
   Legal pages for Joseph Pfeifer mobile games, including privacy policies and
   terms and conditions.
 baseurl: "/game_sites" # project repository path for GitHub Pages
-url: "https://jbpfeifer.github.io" # GitHub Pages host
+url: "https://games.nona.business" # GitHub Pages host
 github_username: jbpfeifer
 
 # Build settings
