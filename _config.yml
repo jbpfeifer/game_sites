@@ -22,7 +22,7 @@ title: Joseph Pfeifer Games
 email: joseph.b.pfeifer@gmail.com
 description: >-
   Indie game portfolio and official landing pages for Joseph Pfeifer's mobile games.
-baseurl: "/game_sites" # project repository path for GitHub Pages
+baseurl: "" # project repository path for GitHub Pages
 url: "https://games.nona.business" # GitHub Pages host
 github_username: jbpfeifer
 author: Joseph Pfeifer
